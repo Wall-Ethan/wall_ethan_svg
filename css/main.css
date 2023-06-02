@@ -1,0 +1,34 @@
+.hidden {
+    display: none;
+}
+
+body {
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+}
+.icon-container div {
+    width: 50%;
+}
+
+#zima {
+    transition: all 0.7s ease;
+}
+
+#bgdiamond {
+    transition: all 1s linear;
+}
+
+#diamond:hover #zima {
+    fill: #0e11e9;
+}
+#diamond:hover #bgdiamond {
+    fill: #0e11e9;
+}
