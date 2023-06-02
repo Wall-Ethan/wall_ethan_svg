@@ -1,0 +1,118 @@
+.hidden {
+    display: none;
+}
+
+body {
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+}
+.icon-container div {
+    width: 50%;
+}
+
+#zima {
+    transition: all 0.7s ease;
+}
+
+#bgdiamond {
+    transition: all 1s linear;
+}
+
+#diamond:hover #zima {
+    fill: #0e11e9;
+}
+#diamond:hover #bgdiamond {
+    fill: #0e11e9;
+}
+#secondaryc {
+    transition: all 0.8s linear;
+}
+
+#outerhalf {
+    transition: all 0.8s ease;
+}
+
+#badge:hover #secondaryc {
+    fill: #0ee971;
+}
+
+#badge:hover #outerhalf {
+    fill: #0ee971;
+}
+
+#hex {
+    transition: all 1.1s linear;
+}
+#bback {
+    transition: all 1.1s linear;
+}
+#icon:hover #hex {
+    fill: rgb(140, 0, 255);
+    opacity: 30%;
+}
+#icon:hover #bback {
+    fill: rgb(140, 0, 255);
+    opacity: 30%;
+}
+
+#utriangle {
+    transition: all 0.6s linear;
+}
+#rtriangle {
+    transition: all 0.6s linear;
+}
+
+#tri:hover #utriangle {
+    fill: #FFDE17;
+}
+#tri:hover #rtriangle {
+    fill: #000000;
+}
+
+#outersun {
+    transition: all 1s linear;
+}
+#inersun {
+    transition: all 1s linear;
+}
+#text5 {
+    transition: all 1s linear;
+}
+#Sun:hover #inersun {
+    opacity: 30%;
+    fill: #000;
+}
+#Sun:hover #outersun {
+    fill: crimson
+}
+#Sun:hover #text5 {
+    fill: #FFDE17;
+}
+
+#text6 {
+    transition: all 0.4s ease;
+}
+#mess {
+    transition: all 0.4s ease;
+}
+#backd {
+    transition: all 0.6s ease;
+}
+#messdice:hover #text6 {
+    fill: greenyellow;
+}
+#messdice:hover #mess {
+    opacity: 15%;
+    fill: crimson;
+}
+#messdice:hover #backd {
+    fill: #0e11e9;
+}
