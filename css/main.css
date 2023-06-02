@@ -32,3 +32,19 @@ body {
 #diamond:hover #bgdiamond {
     fill: #0e11e9;
 }
+
+#secondaryc {
+    transition: all 0.8s linear;
+}
+
+#outerhalf {
+    transition: all 0.8s ease;
+}
+
+#badge:hover #secondaryc {
+    fill: #0ee971;
+}
+
+#badge:hover #outerhalf {
+    fill: #0ee971;
+}
