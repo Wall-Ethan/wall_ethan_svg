@@ -76,3 +76,23 @@ body {
 #tri:hover #rtriangle {
     fill: #000000;
 }
+
+#outersun {
+    transition: all 1s linear;
+}
+#inersun {
+    transition: all 1s linear;
+}
+#text5 {
+    transition: all 1s linear;
+}
+#Sun:hover #inersun {
+    opacity: 30%;
+    fill: #000;
+}
+#Sun:hover #outersun {
+    fill: crimson
+}
+#Sun:hover #text5 {
+    fill: #FFDE17;
+}
